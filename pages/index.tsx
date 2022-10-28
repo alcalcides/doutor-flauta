@@ -17,7 +17,7 @@ export default function Home() {
           Roteiro de estudos para flauta doce
         </p>
 
-        <p>Assista aos vídos diariamente acessando a <a href='https://www.youtube.com/playlist?list=PLuB5Wt4fvjZn-_O4jCS1H27_63NAMTYeZ'>playlist de videoaulas</a> e depois faça os exercícios a seguir.</p>
+        <p>Assista aos vídeos diariamente acessando a <a href='https://www.youtube.com/playlist?list=PLuB5Wt4fvjZn-_O4jCS1H27_63NAMTYeZ'>playlist de videoaulas</a> e depois faça os exercícios a seguir.</p>
 
         <ol>
           <li><a href='https://forms.gle/APwSmAJ3LrCKrnog9'> Exercício de Videoaulas de Música 01 Figuras de Notas</a></li>
