@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  doutor-flauta:
+    build: .
+    image: doutor-flauta-img
+    container_name: doutor-flauta
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./:/usr/doutor-flauta
+      - /usr/doutor-flauta/node_modules
+      - /usr/doutor-flauta/.next
+
+
+networks:
+  default:
+    name: doutor-flauta-net
+    ipam:
+      driver: default
+      config:
+        - subnet: 192.171.1.0/24
