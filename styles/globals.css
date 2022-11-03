@@ -6,12 +6,26 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  text-decoration: none;
+:root {
+  --theme_background: rgb(250, 223, 174);
+  --theme_color1: rgb(3, 129, 187);
+  --theme_color2: rgb(0, 25, 165);
+  --theme_color3: rgb(0, 44, 65);
+  --theme_font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 
 * {
   box-sizing: border-box;
+  background-color: var(--theme_background);
+  color: var(--theme_color1);
+  font-family: var(--theme_font-family);
+}
+
+a {
+  text-decoration: none;
+  color: var(--theme_color2);
+  font-weight: bold;
 }
 
 main {
@@ -19,6 +33,7 @@ main {
   min-height: 100vh;
   margin-bottom: 40px;
 }
+
 
 @media (prefers-color-scheme: dark) {
   html {
