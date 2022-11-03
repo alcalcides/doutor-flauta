@@ -1,23 +1,20 @@
 import Head from 'next/head'
+import { Copy } from '../model/copy'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Doutor Flauta</title>
-        <meta name="description" content="Plano de estudos para flauta doce." />
+        <title>{Copy.title}</title>
+        <meta name="description" content={Copy.description} />
       </Head>
       <main>
-        <h1>
-          Doutor Flauta
-        </h1>
+        <h1>{Copy.title}</h1>
 
-        <p>
-          Roteiro de estudos para flauta doce
-        </p>
+        <p>{Copy.subtitle}</p>
 
-        <p>Assista aos vídeos diariamente acessando a <a href='https://www.youtube.com/playlist?list=PLuB5Wt4fvjZn-_O4jCS1H27_63NAMTYeZ'>playlist de videoaulas</a> e depois faça os exercícios a seguir.</p>
+        <p>{Copy.instruction0}<a href={Copy.playlistLink}>{Copy.playlistAnchor}</a>{Copy.instruction1}</p>
 
         <ol>
           <li><a href='https://forms.gle/APwSmAJ3LrCKrnog9'> Exercício de Videoaulas de Música 01 Figuras de Notas</a></li>

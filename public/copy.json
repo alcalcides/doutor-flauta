@@ -1,0 +1,13 @@
+{
+    "title": "Doutor Flauta",
+    "subtitle": "Roteiro de estudos para flauta doce",
+    "seo": {
+        "description": "Plano de estudos para flauta doce."
+    },
+    "home": {
+        "instruction0": "Assista aos vídeos diariamente acessando a ",
+        "playlistLink": "https://www.youtube.com/playlist?list=PLuB5Wt4fvjZn-_O4jCS1H27_63NAMTYeZ",
+        "playlistAnchor": "playlist de videoaulas",
+        "instruction1": " e depois faça os exercícios a seguir."
+    }
+}
