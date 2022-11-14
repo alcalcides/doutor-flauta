@@ -22,4 +22,22 @@ a {
 main {
     margin: 10px;
     min-height: 100vh;
+    margin-bottom: 80px;
+}
+
+footer {
+    padding: 30px 10px 0;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+}
+
+footer * {
+    background-color: grey;
+    color: white;
+}
+
+footer p {
+    margin: auto;
+    margin-bottom: 5px;
 }
